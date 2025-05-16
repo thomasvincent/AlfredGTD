@@ -6,12 +6,12 @@
 function run(argv) {
     try {
         // Load configuration
-        const configPath = ObjC.unwrap($.NSString.stringWithString('config.json')).stringByStandardizingPath;
+        const configPath = ObjC.unwrap($.NSString.stringWithString("config.json")).stringByStandardizingPath;
         const fm = $.NSFileManager.defaultManager;
         
         // Get script's directory
-        const scriptPath = $.NSString.stringWithString($.NSProcessInfo.processInfo.environment.objectForKey('PWD')).stringByStandardizingPath;
-        const fullConfigPath = scriptPath + '/' + configPath;
+        const scriptPath = $.NSString.stringWithString($.NSProcessInfo.processInfo.environment.objectForKey("PWD")).stringByStandardizingPath;
+        const fullConfigPath = scriptPath + "/" + configPath;
         
         // Check if config file exists
         if (!fm.fileExistsAtPath(fullConfigPath)) {
@@ -34,7 +34,7 @@ function run(argv) {
             // Return entire config or specific setting
             if (argv.length > 1) {
                 const key = argv[1];
-                const value = key.split('.').reduce((obj, prop) => obj && obj[prop], config);
+                const value = key.split(".").reduce((obj, prop) => obj && obj[prop], config);
                 return JSON.stringify({
                     key: key,
                     value: value
@@ -62,7 +62,7 @@ function run(argv) {
             }
             
             // Set nested property
-            const props = key.split('.');
+            const props = key.split(".");
             const lastProp = props.pop();
             const obj = props.reduce((obj, prop) => obj[prop] = obj[prop] || {}, config);
             obj[lastProp] = parsedValue;

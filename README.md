@@ -2,6 +2,9 @@
 
 An Alfred workflow that implements GTD (Getting Things Done) functionality with idiomatic Alfred design principles.
 
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/thomasvincent/AlfredGTD/test.yml?branch=main)](https://github.com/thomasvincent/AlfredGTD/actions)
+[![License](https://img.shields.io/github/license/thomasvincent/AlfredGTD)](https://github.com/thomasvincent/AlfredGTD/blob/main/LICENSE)
+
 ## Features
 
 - **Quick Capture**: Rapidly add tasks, notes, and projects to your GTD system
