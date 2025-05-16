@@ -1,0 +1,29 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Build artifacts
+*.alfredworkflow
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo

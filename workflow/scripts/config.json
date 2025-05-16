@@ -1,0 +1,40 @@
+{
+  "task_app": "reminders",
+  "note_app": "notes",
+  "project_app": "reminders",
+  "weekly_review_day": "friday",
+  "notifications_enabled": true,
+  "default_contexts": [
+    "home",
+    "work",
+    "errands",
+    "calls",
+    "computer",
+    "offline"
+  ],
+  "integrations": {
+    "reminders": {
+      "inbox_list": "Inbox",
+      "projects_folder": "GTD Projects",
+      "someday_list": "Someday-Maybe",
+      "waiting_list": "Waiting For"
+    },
+    "things": {
+      "enabled": false
+    },
+    "omnifocus": {
+      "enabled": false
+    },
+    "todoist": {
+      "enabled": false,
+      "api_key": ""
+    },
+    "notes": {
+      "default_folder": "GTD Notes"
+    },
+    "evernote": {
+      "enabled": false,
+      "default_notebook": "GTD"
+    }
+  }
+}
