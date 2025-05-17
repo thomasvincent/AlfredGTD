@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Beta release preparation
 - Added CHANGELOG.md
+- Added comprehensive documentation:
+  - Installation guide
+  - Usage guide
+  - Configuration reference
+  - Documentation site setup with MkDocs
 
 ## [1.0.0] - 2025-05-16
 

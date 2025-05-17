@@ -25,6 +25,8 @@ An Alfred workflow that implements GTD (Getting Things Done) functionality with 
 2. Double-click the `.alfredworkflow` file to install it in Alfred
 3. Configure your preferred GTD apps in the workflow settings
 
+See the [Installation Guide](docs/installation.md) for detailed instructions.
+
 ## Usage
 
 ### Quick Capture
@@ -44,6 +46,8 @@ An Alfred workflow that implements GTD (Getting Things Done) functionality with 
 - `gtd waiting` - View delegated items
 - `gtd someday` - View someday/maybe list
 
+See the [Usage Guide](docs/usage.md) for a complete reference.
+
 ## Configuration
 
 The workflow uses Apple's built-in applications by default:
@@ -57,6 +61,8 @@ You can modify the `config.json` file in the workflow directory to use other app
 - Tasks: Things, OmniFocus, Todoist
 - Notes: Evernote, DEVONthink, Notion
 - Projects: Things, OmniFocus, Todoist
+
+See the [Configuration Guide](docs/configuration.md) for all available options.
 
 ## Development
 

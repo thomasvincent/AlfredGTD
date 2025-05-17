@@ -1,0 +1,22 @@
+site_name: AlfredGTD Documentation
+site_description: Documentation for the AlfredGTD Alfred workflow
+site_author: Thomas Vincent
+repo_url: https://github.com/thomasvincent/AlfredGTD
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Configuration: configuration.md
+
+theme: readthedocs
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+plugins:
+  - search
